@@ -1,0 +1,143 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center; 
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;  
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 800px;  
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 12px; 
+}
+
+h1 {
+    text-align: left;
+    font-size: 24px; 
+    color: #007bff;
+    margin-bottom: 15px; 
+}
+
+.converter {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    flex: 15;
+}
+
+.swap-icon {
+    font-size: 16px; 
+    padding: 10px;  
+    background-color: #007bff;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;  
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px; 
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    align-self: flex-end;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input, select {
+    padding: 10px;
+    font-size: 14px; 
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.rate-list {
+    margin-top: 20px; 
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    width: 90%; 
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th, td {
+    padding: 10px; 
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td {
+    background-color: #fafafa;
+}
+
+.rate-up {
+    color: green;
+}
+
+.rate-down {
+    color: red;
+}

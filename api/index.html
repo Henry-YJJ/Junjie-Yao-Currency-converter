@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junjie Yao_Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Currency converter</h1>
+        <div class="converter">
+            <div class="input-row">
+                <div class="input-group">
+                    <label for="amount">Amount</label>
+                    <input type="number" id="amount" placeholder="Enter amount" />
+                </div>
+                <div class="input-group">
+                    <label for="fromCurrency">From</label>
+                    <select id="fromCurrency"></select>
+                </div>
+                <div class="swap-icon">
+                    ⇆
+                </div>
+                <div class="input-group">
+                    <label for="toCurrency">Convert into</label>
+                    <select id="toCurrency"></select>
+                </div>
+            </div>
+            <div id="result"></div>
+            <button id="convert">View remittance quote</button>
+        </div>
+        <div class="rate-list">
+            <h2>List of currency rates</h2>
+            <table id="rateTable">
+                <thead>
+                    <tr>
+                        <th>Currency</th>
+                        <th>Exchange rate</th>
+                        <th>Ups and downs</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <p>Created by Junjie Yao in the context of Systems Design in the Interaction Design program at Sheridan College</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
